@@ -1,3 +1,3 @@
-# Bubbsandbubbs3.github.io
+# Bubbs the Talking Robot
 
-Just another personal website
+Simply enter text and push the button!
