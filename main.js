@@ -218,10 +218,17 @@ var Function = function () {
             Output = "You are welcome.";
         }
         if (Input.indexOf('Thank') >= 0){
-            Output = "YOu are welcome.";
+            Output = "You are welcome.";
         }
-        
-        
+        if (Input.indexOf('deez') >= 0){
+            Output = GOT EEM!";
+        }        
+                if (Input.indexOf('deez') >= 0){
+            Output = GOT EEM!";
+        }
+
+
+
         
         if(Output == undefined){
             Output = "No comprendo.";
