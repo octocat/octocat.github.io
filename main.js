@@ -221,10 +221,10 @@ var Function = function () {
             Output = "You are welcome.";
         }
         if (Input.indexOf('deez') >= 0){
-            Output = GOT EEM!";
+            Output = "GOT EEM!";
         }        
                 if (Input.indexOf('deez') >= 0){
-            Output = GOT EEM!";
+            Output = "GOT EEM!";
         }
 
 
