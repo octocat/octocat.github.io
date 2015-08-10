@@ -220,16 +220,43 @@ var Function = function () {
         if (Input.indexOf('Thank') >= 0){
             Output = "You are welcome.";
         }
-        if (Input.indexOf('deez') >= 0){
+        if (Input.indexOf('Deez') >= 0){
             Output = "GOT EEM!";
         }        
                 if (Input.indexOf('deez') >= 0){
             Output = "GOT EEM!";
         }
+        if (Input.indexOf('Screw') >= 0){
+            Output = "ಠ_ಠ";
+        }
+        if (Input.indexOf('Rekt') >= 0){
+            Output = "MLG";
+        }
+        if (Input.indexOf('rekt') >= 0){
+            Output = "lel";
+        }
+        if (Input.indexOf('REKT') >= 0){
+            Output = "360 no scope";
+        }        
+        if (Input.indexOf('wish') >= 0){
+            Output = "What did you wish for?";
+        }
+        if (Input.indexOf('Lenny') >= 0){
+            Output = "( ͡° ͜ʖ ͡°)";
+        }
+        }
+        if (Input.indexOf('Melon') >= 0){
+            Output = "🍉";
+        }
+        }
+        if (Input.indexOf('emoji') >= 0){
+            Output = "(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ ✧ﾟ･: *ヽ(◕ヮ◕ヽ)";
+        }
+        if (Input.indexOf('emoticon') >= 0){
+            Output = "(ノಠ益ಠ)ノ彡┻━┻";
+        }
 
 
-
-        
         if(Output == undefined){
             Output = "No comprendo.";
         }
