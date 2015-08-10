@@ -223,7 +223,7 @@ var Function = function () {
         if (Input.indexOf('Deez') >= 0){
             Output = "GOT EEM!";
         }        
-                if (Input.indexOf('deez') >= 0){
+        if (Input.indexOf('deez') >= 0){
             Output = "GOT EEM!";
         }
         if (Input.indexOf('Screw') >= 0){
@@ -244,10 +244,8 @@ var Function = function () {
         if (Input.indexOf('Lenny') >= 0){
             Output = "( ͡° ͜ʖ ͡°)";
         }
-        }
         if (Input.indexOf('Melon') >= 0){
             Output = "🍉";
-        }
         }
         if (Input.indexOf('emoji') >= 0){
             Output = "(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ ✧ﾟ･: *ヽ(◕ヮ◕ヽ)";
