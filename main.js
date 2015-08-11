@@ -253,6 +253,19 @@ var Function = function () {
         if (Input.indexOf('emoticon') >= 0){
             Output = "(ノಠ益ಠ)ノ彡┻━┻";
         }
+        if (Input.indexOf('Emoji') >= 0){
+            Output = "(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ ✧ﾟ･: *ヽ(◕ヮ◕ヽ)";
+        }
+        if (Input.indexOf('Emoticon') >= 0){
+            Output = "(ﾉ◕ヮ◕)ﾉ* ✧ﾟ";
+        }
+        if (Input.indexOf('Too bad') >= 0){
+            Output = "Meanie.";
+        }
+        if (Input.indexOf('too bad') >= 0){
+            Output = "Yep.";
+        }
+
 
 
         if(Output == undefined){
