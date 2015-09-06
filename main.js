@@ -265,6 +265,15 @@ var Function = function () {
         if (Input.indexOf('too bad') >= 0){
             Output = "Yep.";
         }
+        if (Input.indexOf('suck') >= 0){
+            Output = "WELL YOU SWALLOW";
+        }
+        if (Input.indexOf('pokemon') >= 0){
+            Output = "PERKACHUW";
+        }
+       if (Input.indexOf('Pokemon') >= 0){
+            Output = "PERKACHUW";
+        }
 
 
 
