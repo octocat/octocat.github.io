@@ -3,9 +3,7 @@ var ShowHistory = false;
 var Function = function () {
        
        var Input, Output;
-       //get if Joe is fat from the HTML page
        Input = document.getElementById('MyInput').value;
-       
        
         if (Input.indexOf('Hi') >= 0){
             Output = "Hello.";
@@ -458,7 +456,6 @@ var Function = function () {
             Output = "No comprendo.";
         }
         
-    
         if(ShowHistory == true){
             document.getElementById('Output').innerHTML = document.getElementById('Output').innerHTML + " " + Output;
         }
