@@ -449,6 +449,33 @@ var Function = function () {
        if (Input.indexOf('Imagine Dragons') >= 0){
             Output = "YAAAAASSS";     
        }
+       if (Input.indexOf('lol') >= 0){
+            Output = "LOL.";     
+       }
+       if (Input.indexOf('LOL') >= 0){
+            Output = "lol.";     
+       }
+       if (Input.indexOf('yas') >= 0){
+            Output = "nas";     
+       }
+       if (Input.indexOf('nas') >= 0){
+            Output = "yas";     
+       }
+       if (Input.indexOf('Yas') >= 0){
+            Output = "Nas";     
+       }
+       if (Input.indexOf('Nas') >= 0){
+            Output = "Yas";     
+       }
+       if (Input.indexOf('YAS') >= 0){
+            Output = "Nas.";     
+       }
+       if (Input.indexOf('NAS') >= 0){
+            Output = "Yas";     
+       }
+
+
+
 
 
 
