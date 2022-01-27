@@ -1,0 +1,1 @@
+curl -o actions-runner-osx-x64-2.286.1.tar.gz -L https://github.com/actions/runner/releases/download/v2.286.1/actions-runner-osx-x64-2.286.1.tar.gz
