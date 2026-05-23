@@ -1,5 +1,6 @@
 {
     "recommendations": [
-        "asyncapi.asyncapi-preview"
+        "asyncapi.asyncapi-preview",
+        "jeff-hykin.better-dockerfile-syntax"
     ]
 }
