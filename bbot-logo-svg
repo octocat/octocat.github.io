@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="BBot logo">
+  <defs>
+    <radialGradient id="bg" cx="45%" cy="35%" r="70%"><stop offset="0" stop-color="#231044"/><stop offset="1" stop-color="#05070f"/></radialGradient>
+    <linearGradient id="purple" x1="80" y1="110" x2="330" y2="390"><stop stop-color="#c04dff"/><stop offset=".55" stop-color="#7a35ff"/><stop offset="1" stop-color="#2d72a5"/></linearGradient>
+    <linearGradient id="green" x1="280" y1="150" x2="460" y2="420"><stop stop-color="#a6ff4d"/><stop offset=".55" stop-color="#63d94a"/><stop offset="1" stop-color="#297389"/></linearGradient>
+    <linearGradient id="bot" x1="170" y1="190" x2="360" y2="310"><stop stop-color="#fff"/><stop offset=".45" stop-color="#d869ff"/><stop offset="1" stop-color="#6f23df"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="url(#bg)"/>
+  <path d="M87 302 139 153c13-36 42-55 82-55h135c6 0 10 6 8 11l-16 38h44c5 0 9 3 11 8l9 27-10 39-24-39h-66L135 284l62 61-20 63H110c-34 0-52-32-40-65z" fill="url(#purple)" filter="url(#glow)"/>
+  <path d="M288 408h91c44 0 77-21 91-61l34-102c13-38-14-77-55-77H326c-8 0-16 5-19 13l-27 87 62-67 73 76-97 67h-79l-16-47-18 55 22 56h61z" fill="url(#green)" filter="url(#glow)"/>
+  <g filter="url(#glow)">
+    <rect x="155" y="190" width="202" height="116" rx="56" fill="#171022" stroke="#8f35ff" stroke-width="8"/>
+    <rect x="176" y="196" width="160" height="88" rx="42" fill="url(#bot)"/>
+    <circle cx="154" cy="248" r="34" fill="#e9bbff" stroke="#7b28e8" stroke-width="6"/>
+    <circle cx="358" cy="248" r="34" fill="#e9bbff" stroke="#7b28e8" stroke-width="6"/>
+    <path d="M174 166v58" stroke="#9b5cff" stroke-width="10" stroke-linecap="round"/><circle cx="174" cy="159" r="16" fill="#fff" stroke="#9b5cff" stroke-width="8"/>
+    <path d="M338 166v58" stroke="#9b5cff" stroke-width="10" stroke-linecap="round"/><circle cx="338" cy="159" r="16" fill="#fff" stroke="#9b5cff" stroke-width="8"/>
+    <rect x="213" y="224" width="34" height="38" rx="7" fill="#180b2c"/><path d="M220 231 244 250v12l-24-15z" fill="#8c32ff"/>
+    <rect x="270" y="224" width="34" height="38" rx="7" fill="#180b2c"/><path d="M277 231 301 250v12l-24-15z" fill="#8c32ff"/>
+    <path d="M244 278h24c-2 13-22 13-24 0z" fill="#170b2a"/>
+  </g>
+  <g fill="#8f35ff" opacity=".9"><rect x="277" y="68" width="22" height="22" rx="3"/><rect x="321" y="86" width="25" height="25" rx="3"/><rect x="370" y="118" width="18" height="18" rx="3"/><rect x="297" y="122" width="26" height="26" rx="3"/></g>
+</svg>
